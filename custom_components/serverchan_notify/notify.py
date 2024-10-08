@@ -6,7 +6,7 @@ Example configuration.yaml entry:
 
 notify:
   - name: serverchan_notification
-    platform: notify_serverchan
+    platform: serverchan_notify
     access_token: 'serverchan_sendkey'    
     
 With this custom component loaded, you can send messaged to line Notify.
