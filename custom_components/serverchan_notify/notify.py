@@ -64,7 +64,7 @@ class ServerChanNotificationService(BaseNotificationService):
         desp =  message
         tags = "HA-Notifications"
         # "https://<sendkey>.push.ft07.com/send?title=<title>&desp=<desp>"
-        sendURL = f"https://{self.access_token}.push.ft07.com/send?title={title}&desp={desp}&tag={tags}"
+        sendURL = f"https://{self.access_token}.push.ft07.com/send?title={title}&desp={desp}&tags={tags}"
         
         r=requests.Session().post(sendURL)
         if r.status_code  != 200:
