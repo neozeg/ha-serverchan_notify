@@ -1,5 +1,5 @@
-Obtain Line Notify personal token.
-Copy notify_linefolder from custom_components to your custom_components in Home Assistant directory.
+Obtain Serverchan Notify personal token.
+Copy serverchan_notification from custom_components to your custom_components in Home Assistant directory.
 Add configuration to configuration.yaml
 notify:
   - name: serverchan_notification
