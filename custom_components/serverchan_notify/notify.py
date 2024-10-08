@@ -62,7 +62,7 @@ class ServerChanNotificationService(BaseNotificationService):
         """Send some message."""
         title = kwargs.get(ATTR_TITLE)
         desp =  message
-        tags = "HA Notifications"
+        tags = "HA-Notifications"
         # "https://<sendkey>.push.ft07.com/send?title=<title>&desp=<desp>"
         sendURL = f"https://{self.access_token}.push.ft07.com/send?title={title}&desp={desp}&tag={tags}"
         
