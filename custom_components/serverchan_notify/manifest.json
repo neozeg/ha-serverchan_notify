@@ -2,15 +2,12 @@
   "domain": "serverchan_notify",
   "name": "ServerChan Notify",
   "config_flow": false,
-  "documentation": "https://github.com/nesror/ha-wework_notify",
-  "issue_tracker": "https://github.com/nesror/ha-wework_notify/issues",
+  "documentation": "https://github.com/neozeg/ha-serverchan_notify",
+  "issue_tracker": "https://github.com/neozeg/ha-serverchan_notify/issues",
   "requirements": [],
   "dependencies": [],
   "codeowners": [
-    "27hh",
-    "Mdxin",
-    "nestor",
-    "dscao"
+    "neozeg"
   ],
-  "version": "2023.1.1"
+  "version": "2024.10.1"
 }
